@@ -4,13 +4,17 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background-color: #141b41;
+  color: rgb(169, 210, 214);
   overflow-x: hidden;
 }
 #root {
   min-height: 100vh;
   display: flex;
+}
+
+#dao {
+  color: rgb(240, 240, 104);
 }
 
 h1 {

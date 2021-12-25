@@ -1,6 +1,6 @@
 import sdk from './1-initialize-sdk.js'
 
-const bundleDrop = sdk.getBundleDropModule("0x17bA5392839C3AFb275af0a83523E8cAC752Fc33")
+const bundleDrop = sdk.getBundleDropModule("0x3767dA90E2A1a9B9202BFe781D1503be537f0993")
 
 const setClaimCondition = async () => {
     try {
@@ -8,7 +8,7 @@ const setClaimCondition = async () => {
         //Specify conditions
         claimConditionFactory.newClaimPhase({
             //startTime is the when users are allowed to start minting NFTs 
-            //int his case we set tit to current time meaning minting can start immediatedly
+            //in this case we set it to current time meaning minting can start immediatedly
             startTime:new Date(),
             //maxQuantity is the max number of membership NFTs that can be minted
             maxQuantity:50_000,

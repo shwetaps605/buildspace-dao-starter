@@ -12,7 +12,7 @@ const deployBundleDrop = async () => {
             // A description for the collcation
             description: "A DAO for the fans of TheOffice",
             //The image for the collection that will show in OpenSea
-            image:readFileSync("scripts/assets/token.png"),
+            image:readFileSync("scripts/assets/daocover.png"),
             //The address passed is the address of the person who will recieve the proceeds from sales of the NFTs in the module
             //To charge people, give your wallet address if not give AddressZero 0x00
             primarySaleRecipientAddress: ethers.constants.AddressZero,

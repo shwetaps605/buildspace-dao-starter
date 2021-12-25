@@ -1,7 +1,7 @@
 import sdk from "./1-initialize-sdk.js"
 import { readFileSync } from "fs";
 
-const bundleDrop = sdk.getBundleDropModule("0x17bA5392839C3AFb275af0a83523E8cAC752Fc33")
+const bundleDrop = sdk.getBundleDropModule("0x3767dA90E2A1a9B9202BFe781D1503be537f0993")
 
 const configNft = async () => {
     try {
